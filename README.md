@@ -1,4 +1,4 @@
-# vue-init-demo app branch 迭代业务
+# vue-init-demo  迭代业务
 # git地址 https://github.com/zk6969/vue-init-demo.git
 ## Project setup
 ```
