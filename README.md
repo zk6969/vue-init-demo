@@ -1,4 +1,4 @@
-# vue-init-demo 用于想有个不需要做什么配置就有的vue基础项目环境
+# vue-init-demo app branch 迭代业务
 # git地址 https://github.com/zk6969/vue-init-demo.git
 ## Project setup
 ```
