@@ -20,8 +20,7 @@ Vue.component('DateRangePicker', DateRangePicker)
 Vue.http.interceptors.push((request, next) => {
   request.credentials = true // 接口每次请求会跨域携带cookie
   // request.method = 'POST' // 请求方式（get,post）
-  // request.headers.set('sunway-remember-me', 'a892eb3af0d141baad608f43168ddb9c') // 请求headers携带参数
-  request.headers.set('Cookie', 'sunway-remember-me-cookie=290db4c254f94763871ac69a72960ac8; Idea-6b608f27=78361962-6e96-4311-b82e-5bd95b37e076; fr_username=admin; fr_remember=true; fr_password=MTJhZG1pbg==; locale=zh-CN; sunway-remember-me-cookie=c064492c09ea43109855457b49308157') // 请求headers携带参数
+  // request.headers.set('token', 'a892eb3af0d141baad608f13168dd29c') // 请求headers携带参数
   next(function (response) {
     return response
   })
