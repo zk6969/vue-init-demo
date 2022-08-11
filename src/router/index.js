@@ -22,6 +22,11 @@ const routes = [
     path: '/global',
     name: 'Global',
     component: () => import('../views/Global.vue')
+  },
+  {
+    path: '/dialog',
+    name: 'Dialog',
+    component: () => import('../views/DialogUse.vue')
   }
 ]
 
